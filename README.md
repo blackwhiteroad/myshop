@@ -12,6 +12,8 @@ https://blog.csdn.net/pzl_pzl/article/details/80745039
 ```
 mkvirtualenv vueShop
 pip install -i https://pypi.douban.oom/simple djangorestframework django-filter markdown
+pip install mysqlclient pillow  # pillow处理图片
+注:当pip install xxx命令无效时，在此https://www.lfd.uci.edu/~gohlke/pythonlibs下载安装包/模块
 ```
 使用专业版pycharm新建django项目，解释器指定为虚拟环境的python
 
